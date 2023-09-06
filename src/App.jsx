@@ -1,17 +1,17 @@
-import Header from "./components/Header"
-import AboutMe from "./components/AboutMe"
+import Landing from "./components/Landing"
 import Projects from "./components/Projects"
-import Technologies from "./components/Technologies"
+import Stack from "./components/Stack"
+import About from "./components/About"
 import Contact from "./components/Contact"
 
 function App() {
 
   return (
     <>
-      <Header />
-      <AboutMe />
+      <Landing />
       <Projects />
-      <Technologies />
+      <Stack />
+      <About />
       <Contact />
     </>
   )

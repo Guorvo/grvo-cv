@@ -1,14 +1,19 @@
 import React from 'react'
 
+import { AiFillLinkedin, AiFillGithub, AiFillFile } from 'react-icons/ai'
+
 function Header() {
   return (
-    <div className='bg-black w-full text-white'>
-      <ul className='flex gap-2 p-2 justify-center md:justify-end md:pr-4'>
-        <li className='hover:bg-neutral-700 p-2 rounded-sm'><a href="#">About Me</a></li>
-        <li className='hover:bg-neutral-700 p-2 rounded-sm'><a href="#">Projects</a></li>
-        <li className='hover:bg-neutral-700 p-2 rounded-sm'><a href="#">Technologies</a></li>
-        <li className='hover:bg-neutral-700 p-2 rounded-sm'><a href="#">Contact</a></li>
-      </ul>
+    <div className='flex gap-4 p-4 justify-end items-center w-full'>
+      <a 
+        className='hover:text-cyan-100 transition duration-300 hover:bg-black p-2 rounded-lg' 
+        target='_blank' href="https://github.com/Guorvo"><AiFillGithub size={35}/></a>
+      <a 
+        className='hover:text-cyan-100 transition duration-300 hover:bg-black p-2 rounded-lg' 
+        target='_blank' href="https://www.linkedin.com/in/guorvo/"><AiFillLinkedin size={35}/></a>
+      <a 
+        className='hover:text-cyan-100 transition duration-300 hover:bg-black p-2 rounded-lg' 
+        target='_blank' href="https://github.com/Guorvo"><AiFillFile size={35}/></a>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div className='bg-yellow-300 min-h-screen'>
+    <div id='projects' className='bg-yellow-300 min-h-screen'>
       Projects
     </div>
   )

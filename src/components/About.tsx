@@ -1,10 +1,10 @@
 import React from 'react'
 import Card from './Card'
 
-function AboutMe() {
+function About() {
   return (
     <>
-      <div className='
+      <div id='about' className='
         flex 
         justify-center 
         items-center 
@@ -25,4 +25,4 @@ function AboutMe() {
   )
 }
 
-export default AboutMe
+export default About
