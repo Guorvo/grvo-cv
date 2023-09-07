@@ -1,5 +1,4 @@
 import React from 'react'
-import Card from './Card'
 
 function About() {
   return (
@@ -8,7 +7,9 @@ function About() {
         flex 
         justify-center 
         items-center 
-        bg-neutral-800 
+        bg-gradient-to-b
+        from-wall
+        to-secondary
         min-h-screen
       '>
         <div className='
@@ -18,7 +19,7 @@ function About() {
           shadow-lg 
           shadow-black
         '>
-          <Card />
+          Test
         </div>
       </div>
     </>

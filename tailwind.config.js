@@ -9,9 +9,18 @@ export default {
       colors: {
         primary: '#00ecf8',
         secondary: '#061819',
-        accent: '#c0322a',
+        accent: '#7aed1d',
         wall: '#072021',
         words: '#def6f8'
+      },
+      animation: {
+        scroll: 'scroll 10s linear infinite',
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
       }
     },
   },

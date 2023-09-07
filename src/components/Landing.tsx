@@ -15,7 +15,7 @@ function Landing() {
         justify-center
         items-center
       '>
-        <p className='text-7xl md:text-9xl text-primary font-bold'>Guorvo</p>
+        <p className='text-7xl md:text-9xl text-transparent font-bold bg-gradient-to-r from-primary to-accent bg-clip-text'>Guorvo</p>
         <p className='text-md md:text-xl italic text-words'>(Lucas Martin Cuchero)</p>
         <p className='text-xl md:text-3xl text-words font-bold'>Web Developer</p>
         <Index />
