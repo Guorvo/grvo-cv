@@ -13,11 +13,12 @@ function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className='w-full md:w-3/5 flex flex-col items-center md:items-start gap-3 font-semibold'>
-      <div className='w-full md:w-3/5 flex flex-col gap-3 bg-secondary p-3 rounded-md'>
+      <div className='w-full md:min-w-fit md:w-3/5 flex flex-col gap-3 bg-secondary p-3 rounded-md'>
         <label htmlFor="email">
           Email Address
         </label>
         <input
+          required
           id="email"
           type="email"
           name="email"
@@ -35,6 +36,7 @@ function ContactForm() {
           Message
         </label>
         <textarea
+          required
           id="message"
           name="message"
           placeholder='Write your message...'
@@ -46,9 +48,12 @@ function ContactForm() {
           errors={state.errors}
         />
       </div>
-      <button type="submit" disabled={state.submitting || invalid} className='bg-secondary disabled:opacity-80 disabled:hover:scale-100 disabled:hover:text-words hover:scale-110 hover:text-primary rounded-full w-1/2 md:w-1/3 p-3 transition'>
-        Submit
-      </button>
+      <div className='w-full flex flex-col md:flex-row gap-3 items-center'>
+        <button type="submit" disabled={state.submitting} className='bg-secondary disabled:opacity-80 disabled:hover:scale-100 hover:scale-110 rounded-full w-1/2 p-3 transition'>
+          Send
+        </button>
+        <span className='text-secondary'>Or use <a href="mailto:lmcuchero@gmail.com" className='underline'>this</a>.</span>
+      </div>
     </form>
   );
 }
