@@ -2,7 +2,8 @@ import Landing from "./components/Landing"
 import Projects from "./components/Projects"
 import Stack from "./components/Stack"
 import About from "./components/About"
-import Contact from "./components/Contact"
+import Footer from "./components/Contact"
+
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
       <Projects />
       <Stack />
       <About />
-      <Contact />
+      <Footer />
     </>
   )
 }

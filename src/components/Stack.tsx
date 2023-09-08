@@ -65,8 +65,8 @@ function Stack() {
 
   return (
     <div id='stack' className='bg-wall min-h-screen flex justify-center'>
-      <div className='flex flex-col justify-start md:justify-evenly md:my-12 w-full md:w-3/5 bg-accent text-secondary md:rounded-xl shadow-xl'>
-        <p className='font-mono text-center text-2xl text-words bg-secondary p-4'>Some of the tech stack i've worked with</p>
+      <div className='flex flex-col justify-start md:justify-evenly md:my-12 w-full md:w-3/5 bg-gradient-to-br from-primary to-accent text-secondary md:rounded-xl shadow-xl'>
+        <p className='font-semibold text-center text-2xl text-words bg-secondary p-4'>Some of the tech stack i've worked with</p>
         <LogoSlider logos={front} />
         <LogoSlider logos={back} />
         <LogoSlider logos={utils} />
