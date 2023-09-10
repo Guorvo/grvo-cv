@@ -12,7 +12,7 @@ function Contact() {
       </div>
       <button
         onClick={() => scrollSmoothTo('landing')}
-        className='hover:bg-primary rounded-full p-3 hover:text-secondary transition'
+        className='hover:bg-primary rounded-full p-3 mb-6 md:mb-0 hover:text-secondary transition'
       >
         <BiUpArrowAlt size={30}/>
       </button>
