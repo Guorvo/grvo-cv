@@ -27,7 +27,7 @@ function Projects() {
           <div className='md:w-4/5 grow md:m-6 p-6 bg-primary md:rounded-xl self-end'>
             <div className='bg-secondary p-4 rounded-xl'>
               <div className='overflow-hidden pb-[56.25%] relative h-0'>
-                <div className='top-0 left-0 h-full w-full absolute bg-[url("henryfoods.jpeg")]'></div>
+                <div className='top-0 left-0 h-full w-full absolute bg-[url("/henryfoods.webp")]'></div>
               </div>
               <div>
                 <p className='text-center font-bold p-2'>Henry Foods</p>
