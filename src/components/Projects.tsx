@@ -19,8 +19,8 @@ function Projects() {
                   using Next.js/Typescript</p>
               </div>
               <div className='m-4 flex justify-evenly gap-6'>
-                <a target='_blank' href='https://not-spotify-guorvo.vercel.app/' className='border w-1/3 rounded-full p-2 text-center'>Live Demo</a>
-                <a target='_blank' href='https://github.com/Guorvo/not-spotify' className='border w-1/3 rounded-full p-2 text-center'>Source Code</a>
+                <a target='_blank' href='https://not-spotify-guorvo.vercel.app/' className=' w-1/3 rounded-full p-2 text-center bg-words text-secondary font-bold hover:bg-primary hover:scale-110 transition'>Live Demo</a>
+                <a target='_blank' href='https://github.com/Guorvo/not-spotify' className=' w-1/3 rounded-full p-2 text-center bg-words text-secondary font-bold hover:bg-primary hover:scale-110 transition'>Source Code</a>
               </div>
             </div>
           </div>
@@ -37,8 +37,8 @@ function Projects() {
                   an admin dashboard for data logging and much more!. used Redux, Express and MongoDB</p>
               </div>
               <div className='m-4 flex justify-evenly gap-6'>
-                <a target='_blank' href='https://main-henry-client.vercel.app/' className='border w-1/3 rounded-full p-2 text-center'>Live Demo</a>
-                <a target='_blank' href='https://github.com/JuanArnau7/HenryClient' className='border w-1/3 rounded-full p-2 text-center'>Source Code</a>
+                <a target='_blank' href='https://main-henry-client.vercel.app/' className=' w-1/3 rounded-full p-2 text-center bg-words text-secondary font-bold hover:bg-primary hover:scale-110 transition'>Live Demo</a>
+                <a target='_blank' href='https://github.com/JuanArnau7/HenryClient' className=' w-1/3 rounded-full p-2 text-center bg-words text-secondary font-bold hover:bg-primary hover:scale-110 transition'>Source Code</a>
               </div>
             </div>
           </div>
@@ -52,8 +52,8 @@ function Projects() {
                   made with React-Redux and Node-Express</p>
               </div>
               <div className='m-4 flex justify-evenly gap-6'>
-                <a target='_blank' className='border w-1/3 rounded-full p-2 text-center hidden'>Live Demo</a>
-                <a target='_blank' href='https://github.com/Guorvo/PI-Pokemon' className='border w-1/3 rounded-full p-2 text-center'>Source Code</a>
+                <a target='_blank' className=' w-1/3 rounded-full p-2 text-center hidden bg-words text-secondary hover:bg-primary hover:scale-110 transition'>Live Demo</a>
+                <a target='_blank' href='https://github.com/Guorvo/PI-Pokemon' className=' w-1/3 rounded-full p-2 text-center bg-words text-secondary font-bold hover:bg-primary hover:scale-110 transition'>Source Code</a>
               </div>
             </div>
           </div>
